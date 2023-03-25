@@ -108,16 +108,16 @@ def extract_symptoms_conversation(q, info_dict):
 def printQuestionAndTakeInput(questions):
     for q in questions:
         if(q=="family_history"):
-            print("Is there family history with such symptoms?")
+            print("Chatbot->", "Is there family history with such symptoms?")
         else:
             no = random.randint(0, len(question_asking_templates)-1)
             if(no<2):
-                print(question_asking_templates[no].format(clean_symptoms(q)))
+                print("Chatbot->", question_asking_templates[no].format(clean_symptoms(q)))
             else:
                 if(PersonSuffering == "user"):
-                    print(question_asking_templates[no].format("you", clean_symptoms(q)))
+                    print("Chatbot->", question_asking_templates[no].format("you", clean_symptoms(q)))
                 else:
-                    print(question_asking_templates[no].format("your " + PersonSuffering, clean_symptoms(q)))
+                    print("Chatbot->", question_asking_templates[no].format("your " + PersonSuffering, clean_symptoms(q)))
         user_reply = input(">>")
         info_dict = get_info_dict(user_reply)
         if(extract_symptoms_conversation(q, info_dict)):
@@ -147,7 +147,7 @@ def interact():
         info_dict = get_info_dict(user_reply)
         # print(info_dict)
         if(info_dict['intent']["name"]=='greet'):
-            print(give_greetings_reply())
+            print("Chatbot->", give_greetings_reply())
         elif(info_dict['intent']["name"]=='self_report'):
             if(extract_symptoms_self_report(info_dict)):
                 # print("before calling the predict questions functions:", user_symptoms_yes_lst)
@@ -174,9 +174,9 @@ def interact():
                 print("There is no symptom reported. Please Report atleast one symptom!!")
                 continue
         elif(info_dict['intent']["name"]=='showing_gratitude'):
-            print("No Problem, it's my job!")
+            print("Chatbot->", "No Problem, it's my job!")
         elif(info_dict['intent']["name"]=='goodbye'):
-            print(give_bye_reply())
+            print("Chatbot->", give_bye_reply())
             break
 
 
