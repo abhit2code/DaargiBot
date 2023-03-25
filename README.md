@@ -33,6 +33,22 @@ Here is the Architecture Describing things Inside each component and Flow Diagra
 
 ![DaargiBot](https://user-images.githubusercontent.com/88608893/221353051-6c5ebdae-86f4-4d19-bf13-dbe89b70084c.png)
 
+## Contents of Repo
+
+* [Data](https://github.com/abhit2code/DaargiBot/tree/main/data)
+* [NLU](https://github.com/abhit2code/DaargiBot/tree/main/NLU):
+* [DM](https://github.com/abhit2code/DaargiBot/tree/main/DM)
+* [NLG]
+* [Interaction]
+
+## Downloading the Repo
+
+
+## Running the Chatbot
+
+**Setup the Environment**
+
+
 
 SWOT ANALYSIS
 
