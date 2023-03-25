@@ -35,28 +35,144 @@ Here is the Architecture Describing things Inside each component and Flow Diagra
 
 ## Contents of Repo
 
-* [Data](https://github.com/abhit2code/DaargiBot/tree/main/data)
+* [Data](https://github.com/abhit2code/DaargiBot/tree/main/data): 
 * [NLU](https://github.com/abhit2code/DaargiBot/tree/main/NLU):
-* [DM](https://github.com/abhit2code/DaargiBot/tree/main/DM)
-* [NLG]
-* [Interaction]
+* [DM](https://github.com/abhit2code/DaargiBot/tree/main/DM):
+* [NLG]:
+* [Interaction]:
 
-## Downloading the Repo
+## Installing the Chatbot
 
+**1. Downloading the Repo**
+
+* Go to the Homepage of this Repo. Download the ZIP FILE from the "<> Code" button there.
+  
+  ![tempsnip](https://user-images.githubusercontent.com/123395972/227699641-fcd9f9ea-4be0-4737-aba7-fb2524205b05.jpg)
+  
+ * Extract the ZIP file where you want
+ * Rename the Folder according to your wish. **Lets rename the Downloaded folder(DaargiBot-main) to be - DaargiBot**
+
+**2. Setting up virtual environment**
+
+```
+pip3 install virtualenv
+virtualenv DaargiBot
+```
+
+**3. Opening up the Repo**
+```
+cd DaargiBot
+```
+
+**4. Activating Virtual Environment**
+```
+source bin/activate
+```
+
+**5. Downloading the Required Python Packages**
+```
+pip3 install -r requirements.txt
+```
+
+Hurray we are all set up!!
 
 ## Running the Chatbot
 
-**Setup the Environment**
+Start your terminal and say the current terminal tab(in your mind) to be t1
 
-# setting up virtual environment
+**1. Open up the DaargiBot Repo**
+```
+cd DaargiBot
+```
 
+**2. Activating Virtual Environment**
+ ```
+ source bin/activate
+ ```
+ 
+ **3. Run the run1.sh file**
+ ```
+ bash run1.sh
+ ```
+  
+**4. Open up another terminal tab and say it to be "t2"**
+
+_Further Command would be runned on this new terminal tab->t2_
+
+**5. Repeat Steps 1, and 2**
+
+**6. Run the run2.sh file**
 ```
-print()
+bash run2.sh
 ```
+
+Hurray! we can Now Interact with the Chatbot but do read the Following-> "Instructions to Use" section
+
+## Instructions to Use the Chatbot
+
+Before Reading this do have look at the Architecture Section of the this Chatbot
+
+There are four stages in our Chatbot
+![DaargiBot - Page 2](https://user-images.githubusercontent.com/123395972/227702415-4bac489b-f9a7-4237-8d35-007faa0b7a05.jpeg)
+
+* S1: Here the user may enter the Greeting Message. 
+  
+  example: Hello or Hi. the chatbot then replies with a return greeting message.
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227702694-a56348bf-9568-46b3-b04f-b59b7d108198.png) 
+ 
+* S2: The user needs to enter atleast one symptom which are being observed to them or some other person.
+  
+  example: I am(or my child, mom, father etc) experiencing(or suffering, facing, noticing etc) cough in the morning(or any other symptom) and fatigue in the 
+  evening(or any other symptom). What could be the issue?
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227703697-787bf457-6e33-405b-96c3-b0f4b6679967.png)
+
+* S3: This stage follows the self-report or S2. If the symptoms reported in stage are not strong enough to predict the diesease then the chatbot in return ask 
+  whether the patient suffered a particular symptom. This process continues until the chatbot gather enough information about the symptoms to predict the 
+  disease. **Here the user needs to enter whether the patient suffered the symptom asked by the Chatbot**
+  
+  example: 
+  
+  _for yes_: yes, often, sometimes, etc.
+  _for no_: no, don't, not, not very often, etc.
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227703967-3f325135-87f0-4f18-8da3-07becc982325.png)
+  
+* S4: The chatbot predicts the Possible Disease after gaining enough information about symptoms.
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227704810-94da61e6-d7d4-42cf-8277-35f2d9be4b74.png)
+  
+  The chatbot then provide suggestion by asking for the number of days symptoms are observed. User needs to enter the number of days
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227704819-6910eceb-356e-48a7-96b9-8fa10aa58c1c.png)
+  
+  Through Number of days of suffering chatbot calculates the severity score.
+  
+  If the condition is less severe then suggest precautions
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227704839-312ef092-ecd9-4581-9262-d93d3e537cef.png)
+  
+  If the condition is severe then ask for consulation
+  
+  ![image](https://user-images.githubusercontent.com/123395972/227704891-14010478-8486-40cf-a08c-6f3c11f026a0.png)
+
+* S5: The user shows the gratitude to the chatbot and the chatbot in turn provides supporting message.
+
+  example: thanks, tq for the help, etc
+
+  
+  
+* S6: Here the user enters the leaving message and the chatbot also replies with the leaving message
+
+  example: Bye
+  
+  
+
+
 
 
 SWOT ANALYSIS
-
 
 ![SWOTANALYSIS](https://user-images.githubusercontent.com/88608893/221353122-c75ed90a-d50f-4047-95df-9cef878e6576.JPG)
 
