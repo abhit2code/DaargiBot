@@ -50,9 +50,9 @@ Here is the Architecture Describing things Inside each component and Flow Diagra
 
 # setting up virtual environment
 
-'''
+```
 print()
-'''
+```
 
 
 SWOT ANALYSIS
