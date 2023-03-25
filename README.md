@@ -1,4 +1,4 @@
-##Introduction
+## Introduction
 
 A Medical Disease Diagnosis Chatbot where the user first self reports the symptoms and then the Chatbots inquire more symptoms to arrive at the diagnosis result.
 
@@ -17,7 +17,8 @@ External otitis,
 Conjunctivitis, and 
 Mastitis
 
-Architecture of Chatbot:
+## Architecture of DaargiBot:
+
 Every Chatbot has three components: NLU, DM and NLG
 
 We implemented NLU through RASA Framework,
@@ -26,7 +27,8 @@ DM through Rule Based Technique,
 
 and NLG through Template Based Method
 
-Here is the Architecture Describing things Inside each component and Flow Diagram of DaargiBot.
+Here is the Architecture Describing things Inside each component and Flow Diagram of DaargiBot:
+
 ![DaargiBot](https://user-images.githubusercontent.com/88608893/221353051-6c5ebdae-86f4-4d19-bf13-dbe89b70084c.png)
 
 
