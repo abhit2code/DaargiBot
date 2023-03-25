@@ -17,7 +17,7 @@ External otitis,
 Conjunctivitis, and 
 Mastitis
 
-_Note_: _We implemented our Chatbot in [MarkovML](https://www.markovml.com/) software, so this repo would also contain code of using the features like Experiment Tracking, and Model Recording.
+_Note_: _We implemented our Chatbot in [MarkovML](https://www.markovml.com/) software, so this repo would also contain code of using the features like Experiment Tracking, and Model Recording._
 
 ## Architecture of DaargiBot:
 
