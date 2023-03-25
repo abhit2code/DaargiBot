@@ -35,11 +35,11 @@ Here is the Architecture Describing things Inside each component and Flow Diagra
 
 ## Contents of Repo
 
-* [Data](https://github.com/abhit2code/DaargiBot/tree/main/data): 
-* [NLU](https://github.com/abhit2code/DaargiBot/tree/main/NLU):
-* [DM](https://github.com/abhit2code/DaargiBot/tree/main/DM):
-* [NLG]:
-* [Interaction]:
+* [Data](https://github.com/abhit2code/DaargiBot/tree/main/data): Our [Data](https://www.kaggle.com/datasets/itachi9604/disease-symptom-description-dataset) consist of csv files for Disease Description, Symptoms of a particular Disease, Severity Scores of each symptom, and Disease Precaution.
+* [NLU](https://github.com/abhit2code/DaargiBot/tree/main/NLU): contains file for understanding user message. The code here is used for extracting the user intent and entities related to that particular intent. We made the NLU component through [RASA](https://rasa.com/docs/rasa/) framework.
+* [DM](https://github.com/abhit2code/DaargiBot/tree/main/DM): This folder contains file for deciding what action i.e. whether to predict the Disease or inquire more about the symptoms etc should be taken by bot at certain state of the Chatbot Flow.
+* [NLG]: Contains the file to generate a Natural Language Response for the output from DM
+* [Interaction]: This is the file which combines all the three components of the Bot so the user could interact with it.
 
 ## Installing the Chatbot
 
@@ -161,13 +161,13 @@ There are four stages in our Chatbot
 
   example: thanks, tq for the help, etc
 
-  
+  ![image](https://user-images.githubusercontent.com/123395972/227710135-89f4afa2-e246-4a6b-81ac-5e0dccbc2ceb.png)
   
 * S6: Here the user enters the leaving message and the chatbot also replies with the leaving message
 
   example: Bye
   
-  
+  ![image](https://user-images.githubusercontent.com/123395972/227710148-e0bb23b9-2996-4c14-b05e-b36ad866f34d.png)
 
 
 
