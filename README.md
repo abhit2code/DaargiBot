@@ -180,6 +180,7 @@ SWOT ANALYSIS
 ## Limitation
 
 While Daargi bot has the potential to enhance healthcare accessibility and ease the burden on healthcare providers, it has certain limitations that need to be considered. One of the major constraints is its limited accuracy due to its reliance on algorithms and natural language processing. The accuracy of its diagnosis is restricted by the quality and quantity of data available, and it can only predict the 41 diseases for which it has been trained. Therefore, there is a possibility that Daargi bot may provide inaccurate information in some cases.
+
 Another limitation of Daargi bot is its limited training on 132 symptoms, which may not be sufficient to capture all possible variations in symptoms. An unusual symptom that is not included in the training dataset might lead to skewed results. Moreover, Daargi bot is limited to predicting only a small set of diseases, and patients with complex or multiple health conditions may require a more comprehensive evaluation by a healthcare provider.
 
 ## Future Scope
