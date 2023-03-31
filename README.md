@@ -179,5 +179,30 @@ SWOT ANALYSIS
 
 ## Limitation
 
+While Daargi bot has the potential to enhance healthcare accessibility and ease the burden on healthcare providers, it has certain limitations that need to be considered. One of the major constraints is its limited accuracy due to its reliance on algorithms and natural language processing. The accuracy of its diagnosis is restricted by the quality and quantity of data available, and it can only predict the 41 diseases for which it has been trained. Therefore, there is a possibility that Daargi bot may provide inaccurate information in some cases.
+Another limitation of Daargi bot is its limited training on 132 symptoms, which may not be sufficient to capture all possible variations in symptoms. An unusual symptom that is not included in the training dataset might lead to skewed results. Moreover, Daargi bot is limited to predicting only a small set of diseases, and patients with complex or multiple health conditions may require a more comprehensive evaluation by a healthcare provider.
 
 ## Future Scope
+
+## Instructions to Contribution
+
+To contribute towards the improvement of Daargi Bot, please follow the steps below:
+* Fork the repository: This creates a copy of the original repository on your GitHub account that you can work on.
+* Clone the repository: Clone the repository to your local machine by running
+git clone <repository-url>
+in your terminal. This will create a local copy of the repository that you can work on.
+* Create a new branch: Before making any changes, create a new branch by running
+git checkout -b <branch-name>
+in your terminal. This will create a new branch with the name <branch-name> that you can work on. Always make changes in a new branch rather than the main branch.
+* Make changes: Make changes to the code in your local copy of the repository. Once you are done making changes, save and commit them using the command 
+git add.
+to add all changed files and 
+git commit -m "your commit message" 
+to commit your changes with a descriptive message.
+* Push changes: Once you have committed your changes locally, push them to your forked repository by running 
+git push origin <branch-name> 
+in your terminal.
+* Open a pull request: Once you have pushed your changes to your forked repository, open a pull request on the original repository. The owner of the original repository will then review your changes and either merge them or request changes.
+* Collaborate: If the owner of the repository requests changes, make the necessary changes in your local copy of the repository and push them to your forked repository. Once you are satisfied with your changes, open a new pull request.
+Remember to always communicate with your collaborators and follow any specific guidelines or conventions set by the repository owner.
+
