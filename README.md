@@ -112,8 +112,8 @@ Hurray! we can Now Interact with the Chatbot but do read the Following-> "Instru
 
 Before Reading this do have look at the Architecture Section of the this Chatbot
 
-There are four stages in our Chatbot
-![DaargiBot - Page 2](https://user-images.githubusercontent.com/123395972/227702415-4bac489b-f9a7-4237-8d35-007faa0b7a05.jpeg)
+There are six stages in our Chatbot
+![DaargiBot - Page 2 (1)](https://user-images.githubusercontent.com/123395972/230561599-402b4e4d-bfb9-4648-9920-f1b533dbf74e.jpeg)
 
 * S1: Here the user may enter the Greeting Message. 
   
