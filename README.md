@@ -52,7 +52,7 @@ Here is the Architecture Describing things Inside each component and Flow Diagra
  * Extract the ZIP file where you want
  * Rename the Folder according to your wish. **Lets rename the Downloaded folder(DaargiBot-main) to be - DaargiBot**
 
-**2. Setting up virtual environment**
+**2. Setting up a virtual environment**
 
 ```
 pip3 install virtualenv
@@ -74,7 +74,7 @@ source bin/activate
 pip3 install -r requirements.txt
 ```
 
-Hurray we are all set up!!
+Hurray, we are all set up!!
 
 ## Running the Chatbot
 
